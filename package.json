@@ -1,0 +1,26 @@
+{
+  "name": "adsd-measuring",
+  "version": "0.1.0",
+  "description": "Project to analyse grunt-contrib-compress power.",
+  "main": "index.js",
+  "dependencies": {
+    "grunt-contrib": "^0.11.0"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-compress": "^1.4.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ddspog/adsd-measuring.git"
+  },
+  "author": "Dênnis Sousa <ddspog@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ddspog/adsd-measuring/issues"
+  },
+  "homepage": "https://github.com/ddspog/adsd-measuring#readme"
+}
