@@ -1,0 +1,169 @@
+[{
+    "Type": "JPG",
+    "Size": "01MB",
+    "Compression": "zip",
+    "Quality": 5,
+    "CompressionRate": 0.0013789246129818356,
+    "CompressionDurationSec": 1.489
+}, {
+    "Type": "JPG",
+    "Size": "01MB",
+    "Compression": "zip",
+    "Quality": 11,
+    "CompressionRate": 0.0013789246129818356,
+    "CompressionDurationSec": 1.29
+}, {
+    "Type": "JPG",
+    "Size": "01MB",
+    "Compression": "tgz",
+    "Quality": 5,
+    "CompressionRate": 0.0009783107254207613,
+    "CompressionDurationSec": 1.904
+}, {
+    "Type": "JPG",
+    "Size": "01MB",
+    "Compression": "tgz",
+    "Quality": 11,
+    "CompressionRate": 0.0009773430590257481,
+    "CompressionDurationSec": 1.66
+}, {
+    "Type": "JPG",
+    "Size": "30MB",
+    "Compression": "zip",
+    "Quality": 5,
+    "CompressionRate": 0.0037894628534814734,
+    "CompressionDurationSec": 5.23
+}, {
+    "Type": "JPG",
+    "Size": "30MB",
+    "Compression": "zip",
+    "Quality": 11,
+    "CompressionRate": 0.0037894628534814734,
+    "CompressionDurationSec": 3.646
+}, {
+    "Type": "JPG",
+    "Size": "30MB",
+    "Compression": "tgz",
+    "Quality": 5,
+    "CompressionRate": 0.00271734717593497,
+    "CompressionDurationSec": 3.389
+}, {
+    "Type": "JPG",
+    "Size": "30MB",
+    "Compression": "tgz",
+    "Quality": 11,
+    "CompressionRate": 0.0027174446114706097,
+    "CompressionDurationSec": 3.418
+}, {
+    "Type": "MP3",
+    "Size": "01MB",
+    "Compression": "zip",
+    "Quality": 5,
+    "CompressionRate": 0.006352716024832006,
+    "CompressionDurationSec": 1.373
+}, {
+    "Type": "MP3",
+    "Size": "01MB",
+    "Compression": "zip",
+    "Quality": 11,
+    "CompressionRate": 0.006352716024832006,
+    "CompressionDurationSec": 1.285
+}, {
+    "Type": "MP3",
+    "Size": "01MB",
+    "Compression": "tgz",
+    "Quality": 5,
+    "CompressionRate": 0.008832569064743945,
+    "CompressionDurationSec": 1.244
+}, {
+    "Type": "MP3",
+    "Size": "01MB",
+    "Compression": "tgz",
+    "Quality": 11,
+    "CompressionRate": 0.008831584605418885,
+    "CompressionDurationSec": 1.266
+}, {
+    "Type": "MP3",
+    "Size": "30MB",
+    "Compression": "zip",
+    "Quality": 5,
+    "CompressionRate": 0.0034960441695133238,
+    "CompressionDurationSec": 3.772
+}, {
+    "Type": "MP3",
+    "Size": "30MB",
+    "Compression": "zip",
+    "Quality": 11,
+    "CompressionRate": 0.0034960441695133238,
+    "CompressionDurationSec": 4.09
+}, {
+    "Type": "MP3",
+    "Size": "30MB",
+    "Compression": "tgz",
+    "Quality": 5,
+    "CompressionRate": 0.004567387190508754,
+    "CompressionDurationSec": 3.667
+}, {
+    "Type": "MP3",
+    "Size": "30MB",
+    "Compression": "tgz",
+    "Quality": 11,
+    "CompressionRate": 0.004567964630153631,
+    "CompressionDurationSec": 3.592
+}, {
+    "Type": "MP4",
+    "Size": "01MB",
+    "Compression": "zip",
+    "Quality": 5,
+    "CompressionRate": 0.0009282623686224234,
+    "CompressionDurationSec": 1.333
+}, {
+    "Type": "MP4",
+    "Size": "01MB",
+    "Compression": "zip",
+    "Quality": 11,
+    "CompressionRate": 0.0009282623686224234,
+    "CompressionDurationSec": 1.254
+}, {
+    "Type": "MP4",
+    "Size": "01MB",
+    "Compression": "tgz",
+    "Quality": 5,
+    "CompressionRate": 0.001154644721786502,
+    "CompressionDurationSec": 1.286
+}, {
+    "Type": "MP4",
+    "Size": "01MB",
+    "Compression": "tgz",
+    "Quality": 11,
+    "CompressionRate": 0.001154644721786502,
+    "CompressionDurationSec": 1.248
+}, {
+    "Type": "MP4",
+    "Size": "30MB",
+    "Compression": "zip",
+    "Quality": 5,
+    "CompressionRate": 0.0012894107007275224,
+    "CompressionDurationSec": 3.557
+}, {
+    "Type": "MP4",
+    "Size": "30MB",
+    "Compression": "zip",
+    "Quality": 11,
+    "CompressionRate": 0.0012894107007275224,
+    "CompressionDurationSec": 3.582
+}, {
+    "Type": "MP4",
+    "Size": "30MB",
+    "Compression": "tgz",
+    "Quality": 5,
+    "CompressionRate": 0.0013808332695587344,
+    "CompressionDurationSec": 5.029
+}, {
+    "Type": "MP4",
+    "Size": "30MB",
+    "Compression": "tgz",
+    "Quality": 11,
+    "CompressionRate": 0.0013807380046381157,
+    "CompressionDurationSec": 4.151
+}]
