@@ -1,0 +1,60 @@
+# Example experiment config file
+
+grunt-compression-test:
+  desc: Measure grunt-compression power.
+  data:
+    columns: [Type, Size, Compression, Quality]
+    values:
+      - ["JPG", "01MB", "zip", 5]
+      - ["JPG", "01MB", "zip", 11]
+      - ["JPG", "01MB", "tgz", 5]
+      - ["JPG", "01MB", "tgz", 11]
+      - ["JPG", "30MB", "zip", 5]
+      - ["JPG", "30MB", "zip", 11]
+      - ["JPG", "30MB", "tgz", 5]
+      - ["JPG", "30MB", "tgz", 11]
+      - ["MP3", "01MB", "zip", 5]
+      - ["MP3", "01MB", "zip", 11]
+      - ["MP3", "01MB", "tgz", 5]
+      - ["MP3", "01MB", "tgz", 11]
+      - ["MP3", "30MB", "zip", 5]
+      - ["MP3", "30MB", "zip", 11]
+      - ["MP3", "30MB", "tgz", 5]
+      - ["MP3", "30MB", "tgz", 11]
+      - ["MP4", "01MB", "zip", 5]
+      - ["MP4", "01MB", "zip", 11]
+      - ["MP4", "01MB", "tgz", 5]
+      - ["MP4", "01MB", "tgz", 11]
+      - ["MP4", "30MB", "zip", 5]
+      - ["MP4", "30MB", "zip", 11]
+      - ["MP4", "30MB", "tgz", 5]
+      - ["MP4", "30MB", "tgz", 11]
+  collect:
+    file-size:
+      file: temp\{{ .Size }}.{{ .Type }}
+      param: size
+    output-size:
+      file: temp\output.{{ .Compression }}
+      param: size
+    actual-time:
+      param: time
+  phases:
+    - phase: setup
+      desc: Creating temp directory, and copy target to it.
+      cmds:
+        - cmd: mkdir temp
+        - cmd: cp {{ .Size }}.{{ .Type }} temp/{{ .Size }}.{{ .Type }}
+        - cmd: go run gen_gruntfile.go {{ .Type }} {{ .Size }} {{ .Compression }} {{ .Quality }}
+    - phase: compress
+      desc: Compress the file.
+      cmds:
+        - collect: [file-size, actual-time]
+          moment: start
+        - cmd: grunt compress
+        - collect: [output-size, actual-time]
+          moment: end
+    - phase: cleanup
+      desc: Removing generated files.
+      cmds:
+        - cmd: rm -rf temp
+      
